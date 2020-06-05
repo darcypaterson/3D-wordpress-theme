@@ -1,0 +1,21 @@
+$brandBlueOrig: #389BCD85;
+$brandBlue: #389CCD;
+$brandGreen: #687d36;  
+$brandLtGray: #f2f2f2; 
+$brandGray: #333;
+$articleHover: #5be0e024;
+$headFooterBG: #d4d4d412;
+$colorHeadTwo: #333333ba;
+
+$bodyFont: 'Lato', Arial, Helvetica, sans-serif;
+$headerFont: 'Roboto', Arial, Helvetica, sans-serif;
+$inputFont: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+
+
+
+@mixin transition($property) {
+  -webkit-transition: $property;
+  -ms-transition: $property;
+  -o-transition: $property;
+  transition: $property; 
+}
